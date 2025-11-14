@@ -1,0 +1,23 @@
+@media screen and (max-width: 48rem) { 
+    body {
+        font-size: 0.70rem;
+        max-width: 100%;
+        font-family: 'Inter', Arial, sans-serif;
+        overflow-x: hidden;
+        margin: 0 auto;
+        padding: 0;
+        font-weight: bold;
+        justify-content: center;
+    }
+
+    /* html { overflow-x: hidden; } */
+
+    .get_butter_free_btn {
+        border-radius: 0.02rem;
+        outline: .6rem solid black;
+        color: white;
+        background-color: black;
+    }
+
+
+}

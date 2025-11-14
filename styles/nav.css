@@ -1,0 +1,60 @@
+
+
+@media screen and (max-width: 48rem) { 
+
+#btr_image_nav:hover {
+    transform: rotate(180deg);
+    width: 40rem;
+    height: 50rem;
+}
+
+
+.nav_stuff {
+top: 0;
+  position: sticky; 
+  width: 100%;
+  background-color: white;          /* solid white bar like fixed */
+  z-index: 1000;                    /* stays above all content */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 1rem 0;                 /* same internal spacing */
+  margin: 0;
+  max-width: 100%;
+}
+
+    img {
+        width: 2rem;
+        height: 2rem;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #nav_top_stuff {
+        margin: 0 auto;
+        margin-right: auto;
+        display: flex;
+        gap: 0.56rem;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    #bottom_stuff_from_nav {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        gap: 2.8rem;
+        flex-wrap: wrap;
+    }
+
+    #nav_butter_free_btn {
+        border-radius: 0.02rem;
+        outline: 0.6rem solid black;
+        color: white;
+        background-color: black;
+    }
+
+}
