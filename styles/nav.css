@@ -1,20 +1,30 @@
 
-
-@media screen and (max-width: 48rem) { 
-
 #btr_image_nav:hover {
-    transform: rotate(180deg);
-    width: 40rem;
-    height: 50rem;
+    animation-name: spinning_butter;
+    animation-duration: 1.5s;
+}
+
+@keyframes spinning_butter {
+  100% {
+  transform:  rotate3d(0, 1, 0, 360deg);
+  }
+}
+
+.nav_main {
+    font-size: 0.5rem;
 }
 
 
-.nav_stuff {
-top: 0;
+
+@media screen and (max-width: 48rem) { 
+
+.nav_main {
+  top: 0;
   position: sticky; 
   width: 100%;
-  background-color: white;          /* solid white bar like fixed */
   z-index: 1000;                    /* stays above all content */
+  min-height: 5rem;
+  /* background-color: var(--bg_white); */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -36,11 +46,17 @@ top: 0;
         margin: 0 auto;
         margin-right: auto;
         display: flex;
-        gap: 0.56rem;
-        justify-content: flex-start;
+        gap: 0.08rem;
+        justify-content: space-between;
         flex-wrap: wrap;
     }
 
+    #nav_top_stuff a {
+  display: flex;
+  align-items: center;
+  
+  padding: 0.2rem; /* adjust as needed */
+}    
 
     #bottom_stuff_from_nav {
         display: flex;
@@ -50,11 +66,16 @@ top: 0;
         flex-wrap: wrap;
     }
 
-    #nav_butter_free_btn {
-        border-radius: 0.02rem;
-        outline: 0.6rem solid black;
-        color: white;
-        background-color: black;
+
+
+    #product {
+        background-color: yellow;
     }
+
+    #content {
+     position: absolute;
+     background-color: gray;
+    }
+
 
 }

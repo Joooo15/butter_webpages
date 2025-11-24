@@ -1,6 +1,58 @@
+:root {
+    --bg_black: #090909;
+    --bg_white: white;
+}
+
+.nav_main {
+    background-color: white;
+}
+
+
+ .get_butter_free_btn:hover {
+        outline: .6rem solid #32A2F6;
+        background-color: #32A2F6;
+}
+
+
+.get_butter_free_btn {
+        border-radius: 0.02rem;
+        outline: .6rem solid black;
+        color: white;
+        background-color: black;
+}
+
+
+@media (prefers-color-scheme: dark) {
+body {
+ background-color:  var(--bg_black);
+ color: var(--bg_white);
+}
+
+
+.nav_main, #nav_top_stuff {
+  background-color: var(--bg_black);
+  color: var(--bg_white);
+}
+
+.nav_main {
+     background-color: var(--bg_black);
+}
+
+   .get_butter_free_btn {
+        border-radius: 0.02rem;
+        outline: .6rem solid var(--bg_white);
+        color: black;
+        background-color: var(--bg_white);
+   }
+
+}
+
+
 @media screen and (max-width: 48rem) { 
+
+    
     body {
-        font-size: 0.70rem;
+        font-size: 0.7rem;
         max-width: 100%;
         font-family: 'Inter', Arial, sans-serif;
         overflow-x: hidden;
@@ -12,12 +64,20 @@
 
     /* html { overflow-x: hidden; } */
 
-    .get_butter_free_btn {
-        border-radius: 0.02rem;
-        outline: .6rem solid black;
-        color: white;
-        background-color: black;
+
+    .get_butter_free_btn:active {
+        outline: .6rem solid #32A2F6;
+        background-color: #32A2F6;
     }
 
+}
+
+
+
+    @keyframes slide {
+	0% {transform:translateX(-100%);}
+	100% {transform:translateX(100%);}
 
 }
+
+
