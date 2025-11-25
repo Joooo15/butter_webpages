@@ -4,20 +4,19 @@
 }
 
 .nav_main {
-    background-color: white;
+    background-color: var(--bg_white);
 }
 
 
  .get_butter_free_btn:hover {
-        outline: .6rem solid #32A2F6;
         background-color: #32A2F6;
 }
 
 
 .get_butter_free_btn {
-        border-radius: 0.02rem;
-        outline: .6rem solid black;
-        color: white;
+        border-radius: 0.5rem;
+        padding: 0.6rem;
+        color: var(--bg_white);
         background-color: black;
 }
 
@@ -39,12 +38,13 @@ body {
 }
 
    .get_butter_free_btn {
-        border-radius: 0.02rem;
-        outline: .6rem solid var(--bg_white);
+        border-radius: 0.5rem;
+        /* outline: .6rem solid var(--bg_white); */
+        padding: 0.6rem;
         color: black;
         background-color: var(--bg_white);
+        border: none;     
    }
-
 }
 
 
@@ -52,7 +52,7 @@ body {
 
     
     body {
-        font-size: 0.7rem;
+        /* font-size: 0.7rem; */
         max-width: 100%;
         font-family: 'Inter', Arial, sans-serif;
         overflow-x: hidden;
@@ -66,7 +66,6 @@ body {
 
 
     .get_butter_free_btn:active {
-        outline: .6rem solid #32A2F6;
         background-color: #32A2F6;
     }
 

@@ -1,3 +1,16 @@
+
+
+#moon {
+  display:none;
+}
+
+@media (prefers-color-scheme: dark) {
+
+#moon {
+  display: block;
+}
+
+
 * {
   box-sizing: border-box;
   -webkit-font-smoothing: inherit;
@@ -27,7 +40,7 @@
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 0rem;
-  height: min-content;
+  height: 18rem;
   justify-content: flex-start;
   overflow: hidden;
   padding: 0;
@@ -71,7 +84,7 @@
   overflow: hidden;
   position: absolute;
   width: 75rem; /* 1200px */
-  z-index: 0;
+  z-index: 10;
 }
 
 .framer-wGF1H .framer-1liu9c4 {
@@ -147,4 +160,6 @@
   overflow: hidden;
   position: relative;
   width: 37.5rem; /* 600px */
+}
+
 }
