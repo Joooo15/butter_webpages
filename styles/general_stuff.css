@@ -29,7 +29,7 @@ body {
 
 
 .nav_main, #nav_top_stuff {
-  background-color: var(--bg_black);
+  /* background-color: var(--bg_black); */
   color: var(--bg_white);
 }
 
@@ -40,10 +40,11 @@ body {
    .get_butter_free_btn {
         border-radius: 0.5rem;
         /* outline: .6rem solid var(--bg_white); */
-        padding: 0.6rem;
-        color: black;
+        padding: 0.8rem;
+        color:  var(--bg_black);
         background-color: var(--bg_white);
         border: none;     
+        font-size: 0.67rem;
    }
 }
 

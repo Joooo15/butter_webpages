@@ -33,6 +33,8 @@
   padding: 1rem 0;                 /* same internal spacing */
   margin: 0;
   max-width: 100%;
+background: #52ffba;
+background: linear-gradient(90deg,rgba(82, 255, 186, 1) 0%, rgba(101, 150, 145, 1) 50%, rgba(153, 228, 232, 1) 100%);
 }
 
     img {
